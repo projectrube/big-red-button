@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {AppRegistry, StyleSheet, Text, View, Button} from 'react-native';
+import SimpleCircleButton from './SimpleCircleButton.jsx';
 
 type Props = {};
 export default class MyApp extends Component<Props> {
@@ -11,10 +12,10 @@ export default class MyApp extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Button title={'Press Me'} style={styles.button} onPress={this.doSomething}/> 
-        < Text style={styles.instructions}>
-         Along with some simple, logical customizations.
-        </Text>
+        <SimpleCircleButton 
+          circleDiameter = {300}
+          onPress = {this.doSomething}
+        />
       </View>
     );
   }
