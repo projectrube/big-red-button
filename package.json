@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/projectrube/big-red-button/issues"
   },
-  "homepage": "https://github.com/projectrube/big-red-button#readme"
+  "homepage": "https://github.com/projectrube/big-red-button#readme",
+  "dependencies": {
+    "expo": "^38.0.9",
+    "react-native": "^0.63.2"
+  }
 }
