@@ -110,7 +110,7 @@ const styles = (props) => StyleSheet.create({
     zIndex: 0,
   },
   button: {
-    backgroundColor: 'rgba(20,174,255,0.31)',
+    backgroundColor: 'rgba(277,34,39,0.5)',
     justifyContent: 'center',
     alignContent: 'center',
     borderRadius: (props.circleDiameter / 2),

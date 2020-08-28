@@ -15,7 +15,9 @@ export default class MyApp extends Component<Props> {
         <SimpleCircleButton 
           circleDiameter = {300}
           onPress = {this.doSomething}
-        />
+        > 
+          <Text style={styles.buttonText}>Press Me</Text>
+        </SimpleCircleButton>
       </View>
     );
   }
@@ -28,8 +30,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#2A2734',
   },
-  button: {
-    backgroundColor: 'red'
+  buttonText: {
+    color: 'white',
+    textAlign: 'center'
   },
   instructions: {
     textAlign: 'center',
