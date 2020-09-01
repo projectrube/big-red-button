@@ -19,7 +19,6 @@
   "homepage": "https://github.com/projectrube/big-red-button#readme",
   "dependencies": {
     "expo": "^38.0.9",
-    "react-native": "^0.63.2",
-    "axios": "0.20.0"
+    "react-native": "^0.63.2"
   }
 }
