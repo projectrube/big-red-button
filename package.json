@@ -1,24 +1,23 @@
 {
-  "name": "rube-big-red-button",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/projectrube/big-red-button.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/projectrube/big-red-button/issues"
-  },
-  "homepage": "https://github.com/projectrube/big-red-button#readme",
   "dependencies": {
-    "expo": "^38.0.9",
-    "react-native": "^0.63.2"
-  }
+    "expo": "~38.0.8",
+    "expo-status-bar": "^1.0.2",
+    "react": "~16.11.0",
+    "react-dom": "~16.11.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+    "react-native-web": "~0.11.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "babel-preset-expo": "~8.1.0"
+  },
+  "private": true
 }
